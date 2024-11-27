@@ -1,0 +1,28 @@
+name: foodapp
+description: A Flutter app for food ordering
+
+publish_to: 'none' # Remove this line if you intend to publish
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0 # Or the latest stable version
+  sqflite_common_ffi: ^2.0.0 # Or the latest stable version of sqflite_common_ffi
+  ffi: ^2.0.0 # Ensure that FFI is included for desktop support
+  path_provider: ^2.0.0
+  intl: ^0.18.0 # Add this for date formatting
+  # Add any other dependencies you're using
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Include assets and fonts here if needed
